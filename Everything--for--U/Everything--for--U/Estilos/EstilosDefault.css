@@ -18,6 +18,7 @@ div#busqueda{
 }
 input#textoBusq{
     width:400px;
+    height: 30px;
 }
 logo2{
     height:20px;
@@ -26,4 +27,13 @@ logo2{
 #destacado{
     float:left;
     width:35%;
+}
+#cat{
+    margin-left:30%;
+}
+#fin{
+    clear:both
+}
+img.log{
+    width: 30px;
 }
