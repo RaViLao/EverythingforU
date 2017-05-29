@@ -1,0 +1,29 @@
+﻿body {
+}
+a {
+    color: #ffd800;
+    background-color: black;
+    text-decoration: none;
+}
+
+#login{
+    height:50px;
+    display:block;
+    margin:auto;
+}
+div#busqueda{
+    padding: 20px;
+    text-align:center;
+
+}
+input#textoBusq{
+    width:400px;
+}
+logo2{
+    height:20px;
+    width: 20px;
+}
+#destacado{
+    float:left;
+    width:35%;
+}

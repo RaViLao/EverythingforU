@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EverythingforU.Master.cs" Inherits="Everything__for__U.pagweb.Index" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="../Estilos/EstilosMaestros.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header id="Cabecera"> 
+			<section id="Izq"> 
+				<section id="Izq2" style="text-align: center"> <img id="logo" src="../Estilos/logo.png"/></section>
+				<section id="Der2"> <h1 style="font-size: 85px; text-align: center">Everything for U</h1></section>
+				<div class="limpiar"> </div>
+			</section>
+			<section id="Der">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+                
+			</section>
+			<div class="limpiar"> </div>
+		</header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            
+            
+        </div>
+        <footer id="pie">
+        <a href="">Privacidad</a>    
+            <a href="">Condiciones de Uso</a>
+            <a href="">Ayuda</a>
+        </footer>
+    </form>
+</body>
+</html>
